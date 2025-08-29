@@ -1,0 +1,47 @@
+{
+	"git.openRepositoryInParentFolders": "always",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"editor.rulers": [180],
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"notebook.formatOnSave.enabled": true,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.activityBar.location": "top",
+	"editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+	"editor.tabSize": 2,
+	"editor.fontSize": 12,
+	"editor.linkedEditing": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.lineHeight": 1.8,
+	"editor.minimap.enabled": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.fontLigatures": true,
+	"workbench.editor.labelFormat": "short",
+	"explorer.compactFolders": false,
+	"editor.semanticHighlighting.enabled": false,
+	"breadcrumbs.enabled": false,
+	"explorer.fileNesting.enabled": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"explorer.fileNesting.patterns": {
+		".env*": ".npm*, tsconfig*, vite*, .git*, svelte*, README*, LICENSE*, *.css, .prettier*, yarn*, package*, bun*, eslint*, index*, nest*, pnpm*, .editor*"
+	},
+	"window.confirmSaveUntitledWorkspace": false,
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"symbols.hidesExplorerArrows": false,
+	"files.eol": "\n",
+	"eslint.workingDirectories": [
+		{
+			"directory": "./backend",
+			"changeProcessCWD": true
+		}
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true
+}

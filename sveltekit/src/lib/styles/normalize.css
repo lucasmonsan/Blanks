@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'Rajdhani-Bold';
+	src: url('/fonts/Rajdhani-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Asap-Regular';
+	src: url('/fonts/Asap-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: var(--text-color);
+}
+
+html {
+	font-family: 'Rajdhani-Bold', sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	tab-size: 4;
+}
+
+body {
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height: 100dvh;
+	height: 100%;
+	max-height: 100dvh;
+	margin: 0;
+	border: solid 4px greenyellow;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+table {
+	border-color: currentcolor;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+input,
+p,
+span {
+	font-family: 'Asap-Regular', sans-serif;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+legend {
+	padding: 0;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+summary {
+	display: list-item;
+}
+
+hr {
+	outline: none;
+	border-top: none;
+}
