@@ -11,7 +11,6 @@
 
 	--shadow-white: rgba(255, 255, 255, 0.25) 0px 8px 24px;
 	--shadow-black: rgba(0, 0, 0, 0.25) 0px 8px 24px;
-
 	--text-shadow-white: rgba(255, 255, 255, 0.25) 0px 8px 24px;
 
 	--fast: ease-in-out 0.125s;
@@ -23,8 +22,12 @@
 
 	--border: 2px solid;
 
-	--index-bg: 0;
-	--index-app: 1;
-	--index-error: 9;
-	--index-loading: 10;
+	--z-bg: 0;
+	--z-app: 1;
+	--z-error: 9;
+	--z-loading: 10;
+
+	--max-width-page: 1280px;
+
+	--padd-page: var(--xs);
 }

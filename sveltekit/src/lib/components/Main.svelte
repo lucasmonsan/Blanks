@@ -1,24 +1,22 @@
 <script>
 	import { fade } from 'svelte/transition';
-
-	export let color = '';
 </script>
 
-<main {...$$restProps} in:fade={{ delay: 250 }} out:fade style={`background-color:${color}`}>
+<main {...$$restProps} in:fade={{ delay: 250 }} out:fade>
 	<slot />
 </main>
 
 <style>
 	main {
+		position: absolute;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		flex: 1;
-		gap: var(--md);
 		width: 100%;
-		max-width: 1280px;
+		max-width: var(--max-width-page);
 		min-height: 100%;
-		padding: var(--xs);
+		padding: var(--padd-page);
 		overflow-y: auto;
 		scrollbar-width: none; /* Firefox */
 		-ms-overflow-style: none; /* IE 10+ */
